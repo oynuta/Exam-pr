@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: lightpink;
+    background-color: ghostwhite;
 }
 header {
     display: flex;
@@ -12,7 +12,7 @@ header {
     padding: 20px;
 }
 nav ul {
-    list-style: none;
+    
     display: flex;
     gap: 15px;
 }
@@ -23,8 +23,8 @@ nav ul {
     margin-top: 50px;
 }
 .profile-img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
 .social-icons span {
@@ -34,7 +34,7 @@ nav ul {
     margin: 10px;
     padding: 10px 20px;
     border: none;
-    cursor: pointer;
+   
 }
 .read-blog {
     background-color: blue;
@@ -43,3 +43,14 @@ nav ul {
 .about-me {
     background-color: lightgray;
 }
+.buttons button:hover{
+    background-color: bisque;
+}
+.font{
+    color: lightcoral;
+}
+.headersize:hover{
+    color: cornflowerblue;
+}
+/* .info{
+    text-align: left; */
