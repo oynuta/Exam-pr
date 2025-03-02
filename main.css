@@ -2,14 +2,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center;
+
     background-color: ghostwhite;
 }
 header {
-    display: flex;
+     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px;
+    align-items: center;
+    background-color: ghostwhite;
 }
 nav ul {
     
@@ -19,8 +20,8 @@ nav ul {
 .profile {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+    /* justify-content: center; */
     margin-top: 50px;
     flex-direction: row;
 }
@@ -29,8 +30,10 @@ nav ul {
     height: 150px;
     border-radius: 50%;
 }
-.social-icons span {
+.social-icons p {
     margin: 0 5px;
+    width: 100px;
+    font-size: 1rem;
 }
 .buttons button {
     margin: 10px;
@@ -56,6 +59,8 @@ nav ul {
 }
 .info{
     text-align: left
+   
+    
 }
 
 .photo{
@@ -64,3 +69,27 @@ nav ul {
     border-radius: 15px;
     padding-top: 25px;
 }
+footer {
+    display: flex;
+    margin-top: 100px;
+    padding: 10px;
+    color: #666;
+    justify-content: center;
+}
+@media (max-width: 900px) {
+    .container {
+        max-width: 80%;
+        padding: 15px;
+    }
+    .buttons button {
+        padding: 8px 16px;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        max-width: 100%;
+        margin: 20px auto;
+        padding: 10px;
+    }
+}
+        
